@@ -1,20 +1,20 @@
-# Privacy Policy for Nighty
+# Privacy Policy for leaf
 
 Last Updated: May 2026
 
 ## 1. Introduction
 
-Nighty respects your privacy. This Privacy Policy explains what data is collected and how it is used.
+leaf respects your privacy. This Privacy Policy explains what data is collected and how it is used.
 
 ## 2. Data We Collect
 
-Nighty only stores data necessary for features to function properly. This may include:
+leaf only stores data necessary for features to function properly. This may include:
 - Discord User IDs
 - Economy related data
 - User settings
 - Command usage related data
 
-Nighty does not collect passwords, emails, or private Discord messages unless required by a feature explicitly used by the user.
+leaf does not collect passwords, emails, or private Discord messages unless required by a feature explicitly used by the user.
 
 ## 3. How Data Is Used
 
@@ -26,7 +26,7 @@ Collected data is used for:
 
 ## 4. Data Sharing
 
-Nighty does not sell or share user data with third parties unless required by law.
+leaf does not sell or share user data with third parties unless required by law.
 
 ## 5. Data Storage
 
@@ -45,4 +45,4 @@ Reasonable steps are taken to protect stored data, but no service can guarantee 
 This Privacy Policy may be updated at any time.
 ## 9. Contact
 
-For questions regarding this Privacy Policy, contact the Nighty support team through the official Discord server.
+For questions regarding this Privacy Policy, contact the leaf support team through the official Discord server.
