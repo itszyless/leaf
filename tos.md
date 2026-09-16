@@ -1,52 +1,37 @@
 # Terms of Service for leaf
 
-Last Updated: May 2026
+Last Updated: September 16, 2026
 
-By using leaf, you agree to the following Terms of Service.
+leaf is an independent Discord bot and web dashboard maintained by itszyless as a learning project. These terms describe use of this instance; operators of other copies are responsible for their own service terms.
 
-## 1. About leaf
+## 1. Eligibility and use
 
-leaf is a multi purpose Discord application designed to provide useful features, including moderation, utility, economy, entertainment, and more.
+You must meet Discord’s minimum age for your country and follow Discord’s Terms of Service, Community Guidelines and applicable law. Adult features, where enabled, are for adults only and must not be used to expose minors to adult content.
 
-## 2. Usage
+## 2. Acceptable use
 
-By using leaf, you agree to:
-- Follow Discord's Terms of Service and Community Guidelines
-- Not abuse, exploit, or attempt to break the bot
-- Not use the bot for illegal or harmful activities
-- Not spam commands or intentionally overload the services
+Do not use leaf to harass, spam, impersonate others deceptively, distribute unlawful content, bypass permissions or access someone else’s data. Fake-message and image tools are for clearly identified creative use. You are responsible for the content you submit and for having permission to use it.
 
-Failure to follow these rules may result in restricted access to leaf.
+## 3. Features and availability
 
-## 3. Data Usage
+leaf is a development project. Commands, external integrations and availability can change or fail. Running a local copy requires the computer and Node.js process to remain on. No uptime guarantee is offered. Keep your own copies of important notes or other content.
 
-leaf stores limited data required for certain features to function properly. This may include:
-- Discord User IDs
-- Economy related data
-- User preferences and settings
-- Temporary command related data
+## 4. AI and third-party content
 
-leaf does not sell personal data.
+AI output and external lookups may be inaccurate or unsuitable. Review results before relying on or sharing them. Third-party services have their own terms and data practices. leaf is not affiliated with Discord or the platforms its commands reference.
 
-## 4. Availability
+## 5. Economy and Plus
 
-leaf is provided "as is" without guarantees of uptime or availability. Features may change, be removed, or updated at any time.
+In-bot Cash, stocks and lottery entries are virtual game values with no promised real-world value or cash redemption. Plus is an account entitlement; this repository alone does not activate purchases. If an operator enables paid access, the checkout terms, provider rules and applicable consumer rights apply. No blanket no-refund rule overrides mandatory rights.
 
-## 5. Liability
+## 6. Data and account requests
 
-The developers of leaf are not responsible for:
-- Data loss
-- Server issues caused by misuse
-- Third party integrations
-- Damages resulting from use of the application
+The Privacy Policy explains the data used by bot features and dashboard login. Contact the operator privately through the configured support channel for access, correction or deletion requests. Do not post private account data in public GitHub issues.
 
-## 6. Termination
+## 7. Restrictions and liability
 
-Access to leaf may be removed at any time for users or servers violating these terms.
+The operator may limit access to address abuse, security issues or service problems. The service is provided as available, without additional promises to the extent permitted by law. Nothing here excludes rights or liability that cannot lawfully be excluded.
 
-## 7. Changes to These Terms
+## 8. Contact and changes
 
-These Terms of Service may be updated at any time without prior notice.
-## 8. Contact
-
-For support or questions regarding leaf, contact the leaf support team through the official Discord server.
+For this project, contact itszyless through the support link configured in the running leaf instance. The source repository is https://github.com/itszyless/leaf. Material changes will be reflected in the update date. Self-hosting operators must provide their own working contact route before inviting users.

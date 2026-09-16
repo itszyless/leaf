@@ -1,0 +1,909 @@
+{
+  "adminAudit.json": {},
+  "admins.json": {},
+  "AiCooldowns.json": {},
+  "appAuthorizations.json": {},
+  "auraCooldowns.json": {},
+  "avatarHistory.json": {},
+  "avatarHistorySettings.json": {},
+  "commandAnalytics.json": {},
+  "compliments.json": [
+    "Hey there sexy!",
+    "I hope your day is as nice as your face!",
+    "Have you been working out?",
+    "I'm lucky to be your mirror!",
+    "The Force is strong with you",
+    "If I could high five you... I would!",
+    "On a scale from 1 to 10, you're an 15!",
+    "Being awesome is hard, but you'll manage",
+    "I could just hang here all day!",
+    "I need some time to reflect...",
+    "I see a lot of myself in you",
+    "Damn. You're looking good!",
+    "Yes, you are the fairest of them all",
+    "May the Force be with you",
+    "There's no place like home",
+    "There is no spoon...",
+    "Welcome to the desert of the real",
+    "If you focus on what you’ve left behind, you will never be able to see what lies ahead",
+    "I carried a watermelon",
+    "You gotta hold the frame",
+    "Never underestimate the power of denial",
+    "Strangers all wanna sit next to you on the bus",
+    "Coworkers fantasizes about getting stuck in the elevator with you",
+    "At least two friends are going to name their child and/or goldfish after you",
+    "You are freakishly good at thumb wars",
+    "The FBI tapped your phone just to hear the sound of your voice",
+    "You never forget to fill the ice-cube tray",
+    "People enjoy you accidentally touching their butt while putting on your seat-belt",
+    "I’d give you the last piece of my gum even if I’d just ate garlic",
+    "You could make up a weird religion or diet and everyone would follow it",
+    "Your principal would call you to the office just to look cool",
+    "Your handshake conveys intelligence, confidence and minor claminess",
+    "Cops admire your ability to stay a perfect 3-5 miles above the speed limit",
+    "You rarely have to go to the bathroom when you fly in the window seat",
+    "Cockroaches, mice and other pests avoid your place out of respect",
+    "Callers are intimidated by how funny your voicemail greeting is",
+    "Kids think you are the “cool old person”",
+    "People always think your jeggings are regular jeans",
+    "80% of motorcycle gangs think you’d be a delightful sidecar",
+    "Everyone at the laundromat thinks you have the cutest underwear",
+    "People behind you at movies think you are the perfect height",
+    "Your parents argue over which one of them you look like",
+    "Your smile is contagious",
+    "You look great today",
+    "You're a smart cookie",
+    "I bet you make babies smile",
+    "You have impeccable manners",
+    "I like your style",
+    "You have the best laugh",
+    "I appreciate you",
+    "You are the most perfect you there is",
+    "Your perspective is refreshing",
+    "You're an awesome friend",
+    "You light up the room",
+    "You deserve a hug right now",
+    "You should be proud of yourself",
+    "You're more helpful than you realize",
+    "You have a great sense of humor",
+    "You've got all the right moves!",
+    "You're all that and a super-size bag of chips",
+    "You're even more beautiful on the inside than you are on the outside",
+    "If cartoon bluebirds were real, a bunch of them would be sitting on your shoulders singing right now",
+    "You are making a difference",
+    "You're like sunshine on a rainy day",
+    "You bring out the best in other people",
+    "Your ability to recall random factoids at just the right time is impressive",
+    "You're a great listener",
+    "How is it that you always look great, even in sweatpants?",
+    "Everything would be better if more people were like you!",
+    "I bet you sweat glitter",
+    "You were cool way before hipsters were cool",
+    "That color is perfect on you",
+    "Hanging out with you is always a blast",
+    "You smell really good",
+    "Being around you makes everything better!",
+    "When you say, \"I meant to do that,\" I totally believe you",
+    "Colors seem brighter when you're around",
+    "You're wonderful",
+    "You have cute elbows. For reals!",
+    "Jokes are funnier when you tell them",
+    "You're better than a triple-scoop ice cream cone. With sprinkles",
+    "Your bellybutton is kind of adorable",
+    "Your hair looks stunning",
+    "You're one of a kind!",
+    "You're inspiring",
+    "You should be thanked more often. So thank you!!",
+    "You have the best ideas",
+    "You always know how to find that silver lining",
+    "Everyone gets knocked down sometimes, but you always get back up and keep going",
+    "You're a candle in the darkness",
+    "You're a great example to others",
+    "Being around you is like being on a happy little vacation",
+    "You always know just what to say",
+    "You're always learning new things and trying to better yourself, which is awesome",
+    "If someone based an Internet meme on you, it would have impeccable grammar",
+    "You could survive a Zombie apocalypse",
+    "You're more fun than bubble wrap",
+    "When you make a mistake, you fix it",
+    "Who raised you? They deserve a medal for a job well done",
+    "You're great at figuring stuff out",
+    "Your voice is magnificent",
+    "The people you love are lucky to have you in their lives",
+    "You're like a breath of fresh air",
+    "You're gorgeous -- and that's the least interesting thing about you, too",
+    "You're so thoughtful",
+    "Your creative potential seems limitless",
+    "Your name suits you to a T",
+    "You're irresistible when you blush",
+    "Actions speak louder than words, and yours tell an incredible story",
+    "Somehow you make time stop and fly at the same time",
+    "When you make up your mind about something, nothing stands in your way",
+    "You seem to really know who you are",
+    "Any team would be lucky to have you on it",
+    "In high school I bet you were voted \"most likely to keep being awesome.\"",
+    "Babies and small animals probably love you",
+    "You're someone's reason to smile",
+    "You're even better than a unicorn, because you're real",
+    "How do you keep being so funny and making everyone laugh?",
+    "You have a good head on your shoulders",
+    "Has anyone ever told you that you have great posture?",
+    "The way you treasure your loved ones is incredible",
+    "You're really something special",
+    "You're a gift to those around you",
+    "You're so smart! Why haven't I thought of that before?",
+    "You look great in that outfit",
+    "You look younger than your age",
+    "I like the way you smile",
+    "You're so funny!",
+    "Thank you for being so thoughtful",
+    "Did you lose some weight? You look healthy",
+    "I like you because you are a great listener",
+    "You inspired me to become a better person",
+    "I couldn't have finished this project without your help",
+    "I like your sense of style",
+    "Your hair looks amazing",
+    "You smell good today",
+    "You rock that shirt!",
+    "Good job!",
+    "I like your shoes",
+    "I like the way you designed my website",
+    "You have a lovely voice",
+    "Your sweater looks nice. Where did you buy that?",
+    "You cracked me up with that joke",
+    "I love all of the photos you've taken",
+    "You are a great husband",
+    "That's so awesome!",
+    "Have been working out lately?",
+    "How do you style your hair like that?",
+    "I like your pants",
+    "I will recommend your service to my friends",
+    "You must be the life of the party",
+    "You look even better without makeup",
+    "You have a great taste in clothes",
+    "Take a break! You deserve a vacation",
+    "How do make your skin to look flawless and radiant?",
+    "Nice nails!",
+    "You are one of a kind",
+    "You look cool in those boots",
+    "Keep up the good work!",
+    "You nailed it!",
+    "Those shoes were a great call. ",
+    "9/10 dentists agree, you are the BEST",
+    "Today's outfit = Thumbs up",
+    "Your hair looks great today. It also looked really good two days ago",
+    "You could be an astronaut if you wanted. NASA told me so",
+    "Your dental hygiene is impeccable.  ",
+    "8 out of 10 co-workers agree, your desk is the cleanest. ",
+    "You'd be the last one standing in a horror movie",
+    "You're funny. Like, LOL style",
+    "You have very smooth hair",
+    "You deserve a promotion",
+    "I like your style",
+    "That looks nice on you",
+    "You have perfect bone structure",
+    "I like your socks",
+    "Your smile is breath taking",
+    "You make my data circuits skip a beat",
+    "You are the gravy to my mashed potatoes",
+    "You're cooler than Pirates and Ninjas combined",
+    "I like your pants",
+    "You could probably lead a rebellion",
+    "Your skin is radiant",
+    "You could survive a zombie apocalypse",
+    "You're so rad",
+    "You're more fun than a barrel of monkeys",
+    "You're nicer than a day on the beach",
+    "Your glass is the fullest",
+    "You look so perfect",
+    "You're more fun than bubble wrap",
+    "You're the bee's knees",
+    "You definitely know the difference between your and you're",
+    "Yum!, I dig you",
+    "You got the moves like Jagger",
+    "I would volunteer to take your place in the Hunger Games",
+    "You have such nice eyes",
+    "You're awesome",
+    "You're the best",
+    "You're fantastic",
+    "You're really flipping smart",
+    "You look awesome today, seriously"
+  ],
+  "DMSettings.json": {},
+  "economy.json": {},
+  "embedLayouts.json": {},
+  "fakebanReasons.json": [
+    "Banned {user} for excessive cringe levels.",
+    "Banned {user} for attempting to divide by zero.",
+    "Banned {user} for speaking in Comic Sans.",
+    "Banned {user} for using Internet Explorer.",
+    "Banned {user} for trying to hack the Matrix.",
+    "Banned {user} for being sus in electrical.",
+    "Banned {user} for Rickrolling the admin.",
+    "Banned {user} for trying to ban the bot.",
+    "Banned {user} for pinging @everyone.",
+    "Banned {user} for illegal amounts of sass.",
+    "Banned {user} for being too cool for this server.",
+    "Banned {user} for stealing cookies from the jar.",
+    "Banned {user} for arguing with ChatGPT.",
+    "Banned {user} for using dark mode... on light themes.",
+    "Banned {user} for sending 7 memes per second.",
+    "Banned {user} because the bot was bored.",
+    "Banned {user} for asking 'What’s the Wi-Fi password?'",
+    "Banned {user} for using the wrong emote.",
+    "Banned {user} for saying 'Among Us' too many times.",
+    "Banned {user} for using too many hashtags.",
+    "Banned {user} for pretending to be an AI.",
+    "Banned {user} for excessive dad jokes.",
+    "Banned {user} for using Bing.",
+    "Banned {user} for being AFK during the apocalypse.",
+    "Banned {user} for singing off-key in VC.",
+    "Banned {user} for sending cat pics without permission.",
+    "Banned {user} for threatening to touch grass.",
+    "Banned {user} because the stars said so.",
+    "Banned {user} for drinking all the virtual coffee.",
+    "Banned {user} for saying 'UwU' too loudly."
+  ],
+  "giveaways.json": {},
+  "inf_combinations.json": {},
+  "inf_players.json": {},
+  "language.json": {},
+  "lockedCommands.json": {},
+  "lottery.json": {},
+  "nerdfacts.json": [
+    "Can name all 151 original Pokémon… in order.",
+    "Corrects grammar in YouTube comments.",
+    "Has memorized every Star Wars movie script.",
+    "Uses dark mode and thinks it adds 10 IQ.",
+    "Writes JavaScript in their dreams.",
+    "Still waiting for their Hogwarts letter.",
+    "Knows every Doctor Who regeneration.",
+    "Simulates physics in Minecraft... for fun.",
+    "Organizes desktop icons by color *and* category.",
+    "Thinks Linux is a personality trait.",
+    "Argues about tabs vs spaces... passionately.",
+    "Plays Sudoku to relax from programming.",
+    "Owns a pocket protector, unironically.",
+    "Can recite the entire periodic table.",
+    "Says 'actually' in every argument.",
+    "Thinks 3 monitors is the minimum setup.",
+    "Wears blue light glasses at night.",
+    "Has written fanfiction about GitHub Copilot.",
+    "Talks to their Discord bot like it’s alive.",
+    "Celebrates Pi Day with actual pie.",
+    "Uses LaTeX… for grocery lists.",
+    "Knows regex better than human languages.",
+    "Organizes their bookmarks monthly.",
+    "Gets excited about patch notes.",
+    "Tried to code a dating sim... for themselves.",
+    "Has a backup keyboard, just in case.",
+    "Still uses RSS feeds.",
+    "Knows their IP address by heart.",
+    "Once tried to automate their sleep schedule.",
+    "Owns more dice than friends.",
+    "Gets angry at 'sci-fi inaccuracies'.",
+    "Can beat a calculator in mental math.",
+    "Practices Morse code in spare time.",
+    "Named their PC after a Marvel character.",
+    "Wrote a bot to play a game they were bad at.",
+    "Cleans their mechanical keyboard weekly.",
+    "Built a PC before learning how to ride a bike.",
+    "Has a spreadsheet for tracking anime episodes.",
+    "Speaks fluent emoji 😎💻",
+    "Wrote their own programming language (badly)."
+  ],
+  "notes.json": {},
+  "nsfw.json": {},
+  "openSupports.json": {},
+  "plusUsers.json": {},
+  "plus_keys.json": [],
+  "polls.json": {},
+  "quotes.json": {
+    "quotes": [
+      {
+        "quote": "Life isn’t about getting and having, it’s about giving and being.",
+        "author": "Kevin Kruse"
+      },
+      {
+        "quote": "Whatever the mind of man can conceive and believe, it can achieve.",
+        "author": "Napoleon Hill"
+      },
+      {
+        "quote": "Strive not to be a success, but rather to be of value.",
+        "author": "Albert Einstein"
+      },
+      {
+        "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+        "author": "Robert Frost"
+      },
+      {
+        "quote": "I attribute my success to this: I never gave or took any excuse.",
+        "author": "Florence Nightingale"
+      },
+      {
+        "quote": "You miss 100% of the shots you don’t take.",
+        "author": "Wayne Gretzky"
+      },
+      {
+        "quote": "I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.",
+        "author": "Michael Jordan"
+      },
+      {
+        "quote": "The most difficult thing is the decision to act, the rest is merely tenacity.",
+        "author": "Amelia Earhart"
+      },
+      {
+        "quote": "Every strike brings me closer to the next home run.",
+        "author": "Babe Ruth"
+      },
+      {
+        "quote": "Definiteness of purpose is the starting point of all achievement.",
+        "author": "W. Clement Stone"
+      },
+      {
+        "quote": "We must balance conspicuous consumption with conscious capitalism.",
+        "author": "Kevin Kruse"
+      },
+      {
+        "quote": "Life is what happens to you while you’re busy making other plans.",
+        "author": "John Lennon"
+      },
+      {
+        "quote": "We become what we think about.",
+        "author": "Earl Nightingale"
+      },
+      {
+        "quote": "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover.",
+        "author": "Mark Twain"
+      },
+      {
+        "quote": "Life is 10% what happens to me and 90% of how I react to it.",
+        "author": "Charles Swindoll"
+      },
+      {
+        "quote": "The most common way people give up their power is by thinking they don’t have any.",
+        "author": "Alice Walker"
+      },
+      {
+        "quote": "The mind is everything. What you think you become.",
+        "author": "Buddha"
+      },
+      {
+        "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+        "author": "Chinese Proverb"
+      },
+      {
+        "quote": "An unexamined life is not worth living.",
+        "author": "Socrates"
+      },
+      {
+        "quote": "Eighty percent of success is showing up.",
+        "author": "Woody Allen"
+      },
+      {
+        "quote": "Your time is limited, so don’t waste it living someone else’s life.",
+        "author": "Steve Jobs"
+      },
+      {
+        "quote": "Winning isn’t everything, but wanting to win is.",
+        "author": "Vince Lombardi"
+      },
+      {
+        "quote": "I am not a product of my circumstances. I am a product of my decisions.",
+        "author": "Stephen Covey"
+      },
+      {
+        "quote": "Every child is an artist.  The problem is how to remain an artist once he grows up.",
+        "author": "Pablo Picasso"
+      },
+      {
+        "quote": "You can never cross the ocean until you have the courage to lose sight of the shore.",
+        "author": "Christopher Columbus"
+      },
+      {
+        "quote": "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+        "author": "Maya Angelou"
+      },
+      {
+        "quote": "Either you run the day, or the day runs you.",
+        "author": "Jim Rohn"
+      },
+      {
+        "quote": "Whether you think you can or you think you can’t, you’re right.",
+        "author": "Henry Ford"
+      },
+      {
+        "quote": "The two most important days in your life are the day you are born and the day you find out why.",
+        "author": "Mark Twain"
+      },
+      {
+        "quote": "Whatever you can do, or dream you can, begin it.  Boldness has genius, power and magic in it.",
+        "author": "Johann Wolfgang von Goethe"
+      },
+      {
+        "quote": "The best revenge is massive success.",
+        "author": "Frank Sinatra"
+      },
+      {
+        "quote": "People often say that motivation doesn’t last. Well, neither does bathing.  That’s why we recommend it daily.",
+        "author": "Zig Ziglar"
+      },
+      {
+        "quote": "Life shrinks or expands in proportion to one’s courage.",
+        "author": "Anais Nin"
+      },
+      {
+        "quote": "If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced.",
+        "author": "Vincent Van Gogh"
+      },
+      {
+        "quote": "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
+        "author": "Aristotle"
+      },
+      {
+        "quote": "Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.",
+        "author": "Jesus"
+      },
+      {
+        "quote": "The only person you are destined to become is the person you decide to be.",
+        "author": "Ralph Waldo Emerson"
+      },
+      {
+        "quote": "Go confidently in the direction of your dreams.  Live the life you have imagined.",
+        "author": "Henry David Thoreau"
+      },
+      {
+        "quote": "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.",
+        "author": "Erma Bombeck"
+      },
+      {
+        "quote": "Few things can help an individual more than to place responsibility on him, and to let him know that you trust him.",
+        "author": "Booker T. Washington"
+      },
+      {
+        "quote": "Certain things catch your eye, but pursue only those that capture the heart.",
+        "author": "Ancient Indian Proverb"
+      },
+      {
+        "quote": "Believe you can and you’re halfway there.",
+        "author": "Theodore Roosevelt"
+      },
+      {
+        "quote": "Everything you’ve ever wanted is on the other side of fear.",
+        "author": "George Addair"
+      },
+      {
+        "quote": "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
+        "author": "Plato"
+      },
+      {
+        "quote": "Teach thy tongue to say, “I do not know,” and thous shalt progress.",
+        "author": "Maimonides"
+      },
+      {
+        "quote": "Start where you are. Use what you have.  Do what you can.",
+        "author": "Arthur Ashe"
+      },
+      {
+        "quote": "When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, they asked me what I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the assignment, and I told them they didn’t understand life.",
+        "author": "John Lennon"
+      },
+      {
+        "quote": "Fall seven times and stand up eight.",
+        "author": "Japanese Proverb"
+      },
+      {
+        "quote": "When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us.",
+        "author": "Helen Keller"
+      },
+      {
+        "quote": "Everything has beauty, but not everyone can see.",
+        "author": "Confucius"
+      },
+      {
+        "quote": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+        "author": "Anne Frank"
+      },
+      {
+        "quote": "When I let go of what I am, I become what I might be.",
+        "author": "Lao Tzu"
+      },
+      {
+        "quote": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+        "author": "Maya Angelou"
+      },
+      {
+        "quote": "Happiness is not something readymade.  It comes from your own actions.",
+        "author": "Dalai Lama"
+      },
+      {
+        "quote": "If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.",
+        "author": "Sheryl Sandberg"
+      },
+      {
+        "quote": "First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end.",
+        "author": "Aristotle"
+      },
+      {
+        "quote": "If the wind will not serve, take to the oars.",
+        "author": "Latin Proverb"
+      },
+      {
+        "quote": "You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground.",
+        "author": "Unknown"
+      },
+      {
+        "quote": "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
+        "author": "Marie Curie"
+      },
+      {
+        "quote": "Too many of us are not living our dreams because we are living our fears.",
+        "author": "Les Brown"
+      },
+      {
+        "quote": "Challenges are what make life interesting and overcoming them is what makes life meaningful.",
+        "author": "Joshua J. Marine"
+      },
+      {
+        "quote": "If you want to lift yourself up, lift up someone else.",
+        "author": "Booker T. Washington"
+      },
+      {
+        "quote": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
+        "author": "Leonardo da Vinci"
+      },
+      {
+        "quote": "Limitations live only in our minds.  But if we use our imaginations, our possibilities become limitless.",
+        "author": "Jamie Paolinetti"
+      },
+      {
+        "quote": "You take your life in your own hands, and what happens? A terrible thing, no one to blame.",
+        "author": "Erica Jong"
+      },
+      {
+        "quote": "What’s money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do.",
+        "author": "Bob Dylan"
+      },
+      {
+        "quote": "I didn’t fail the test. I just found 100 ways to do it wrong.",
+        "author": "Benjamin Franklin"
+      },
+      {
+        "quote": "In order to succeed, your desire for success should be greater than your fear of failure.",
+        "author": "Bill Cosby"
+      },
+      {
+        "quote": "A person who never made a mistake never tried anything new.",
+        "author": "Albert Einstein"
+      },
+      {
+        "quote": "The person who says it cannot be done should not interrupt the person who is doing it.",
+        "author": "Chinese Proverb"
+      },
+      {
+        "quote": "There are no traffic jams along the extra mile.",
+        "author": "Roger Staubach"
+      },
+      {
+        "quote": "It is never too late to be what you might have been.",
+        "author": "George Eliot"
+      },
+      {
+        "quote": "You become what you believe.",
+        "author": "Oprah Winfrey"
+      },
+      {
+        "quote": "I would rather die of passion than of boredom.",
+        "author": "Vincent van Gogh"
+      },
+      {
+        "quote": "A truly rich man is one whose children run into his arms when his hands are empty.",
+        "author": "Unknown"
+      },
+      {
+        "quote": "It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings.",
+        "author": "Ann Landers"
+      },
+      {
+        "quote": "If you want your children to turn out well, spend twice as much time with them, and half as much money.",
+        "author": "Abigail Van Buren"
+      },
+      {
+        "quote": "Build your own dreams, or someone else will hire you to build theirs.",
+        "author": "Farrah Gray"
+      },
+      {
+        "quote": "The battles that count aren’t the ones for gold medals. The struggles within yourself–the invisible battles inside all of us–that’s where it’s at.",
+        "author": "Jesse Owens"
+      },
+      {
+        "quote": "Education costs money.  But then so does ignorance.",
+        "author": "Sir Claus Moser"
+      },
+      {
+        "quote": "I have learned over the years that when one’s mind is made up, this diminishes fear.",
+        "author": "Rosa Parks"
+      },
+      {
+        "quote": "It does not matter how slowly you go as long as you do not stop.",
+        "author": "Confucius"
+      },
+      {
+        "quote": "If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.",
+        "author": "Oprah Winfrey"
+      },
+      {
+        "quote": "Remember that not getting what you want is sometimes a wonderful stroke of luck.",
+        "author": "Dalai Lama"
+      },
+      {
+        "quote": "You can’t use up creativity.  The more you use, the more you have.",
+        "author": "Maya Angelou"
+      },
+      {
+        "quote": "Dream big and dare to fail.",
+        "author": "Norman Vaughan"
+      },
+      {
+        "quote": "Our lives begin to end the day we become silent about things that matter.",
+        "author": "Martin Luther King Jr."
+      },
+      {
+        "quote": "Do what you can, where you are, with what you have.",
+        "author": "Teddy Roosevelt"
+      },
+      {
+        "quote": "If you do what you’ve always done, you’ll get what you’ve always gotten.",
+        "author": "Tony Robbins"
+      },
+      {
+        "quote": "Dreaming, after all, is a form of planning.",
+        "author": "Gloria Steinem"
+      },
+      {
+        "quote": "It’s your place in the world; it’s your life. Go on and do all you can with it, and make it the life you want to live.",
+        "author": "Mae Jemison"
+      },
+      {
+        "quote": "You may be disappointed if you fail, but you are doomed if you don’t try.",
+        "author": "Beverly Sills"
+      },
+      {
+        "quote": "Remember no one can make you feel inferior without your consent.",
+        "author": "Eleanor Roosevelt"
+      },
+      {
+        "quote": "Life is what we make it, always has been, always will be.",
+        "author": "Grandma Moses"
+      },
+      {
+        "quote": "The question isn’t who is going to let me; it’s who is going to stop me.",
+        "author": "Ayn Rand"
+      },
+      {
+        "quote": "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",
+        "author": "Henry Ford"
+      },
+      {
+        "quote": "It’s not the years in your life that count. It’s the life in your years.",
+        "author": "Abraham Lincoln"
+      },
+      {
+        "quote": "Change your thoughts and you change your world.",
+        "author": "Norman Vincent Peale"
+      },
+      {
+        "quote": "Either write something worth reading or do something worth writing.",
+        "author": "Benjamin Franklin"
+      },
+      {
+        "quote": "Nothing is impossible, the word itself says, “I’m possible!”",
+        "author": "Audrey Hepburn"
+      },
+      {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs"
+      },
+      {
+        "quote": "If you can dream it, you can achieve it.",
+        "author": "Zig Ziglar"
+      }
+    ]
+  },
+  "rank-settings.json": {},
+  "reminders.json": {},
+  "robloxAccessClaims.json": {},
+  "savedThemes.json": {},
+  "spamCooldown.json": {},
+  "stockBets.json": {
+    "active": [],
+    "history": []
+  },
+  "stocks.json": {},
+  "themeShares.json": {},
+  "truthordare.json": {
+    "truths": [
+      "What is your most embarrassing moment?",
+      "Have you ever lied to your best friend?",
+      "What’s something you’ve never told your parents?",
+      "Who was your first crush?",
+      "What’s your biggest fear?",
+      "What’s the worst lie you’ve ever told?",
+      "If you could be invisible for a day, what would you do?",
+      "What’s one secret you’ve never told anyone?",
+      "Who do you text the most?",
+      "What’s your guilty pleasure?",
+      "What’s the weirdest dream you’ve ever had?",
+      "If you had to date someone here, who would it be?",
+      "What’s your biggest insecurity?",
+      "What’s the last thing you searched on Google?",
+      "Have you ever cheated on a test?",
+      "Who was your first love?",
+      "What’s the most childish thing you still do?",
+      "What’s one thing you’d change about yourself?",
+      "What’s your worst habit?",
+      "What’s your favorite childhood memory?",
+      "Have you ever been caught lying?",
+      "What’s your most useless talent?",
+      "If you could relive one day, which one would it be?",
+      "What’s the most awkward thing that ever happened to you?",
+      "What’s your most overused word or phrase?",
+      "What would you do if you won a million dollars?",
+      "What’s something you’re afraid of people finding out?",
+      "What’s your biggest regret?",
+      "What’s one thing you can’t live without?",
+      "What’s your dream job?",
+      "What’s the weirdest food you’ve ever eaten?",
+      "What’s one thing you hate about school or work?",
+      "Who do you miss the most right now?",
+      "Have you ever had a crush on a teacher?",
+      "What’s the worst gift you’ve ever received?",
+      "What’s your go-to excuse to get out of plans?",
+      "Who would you switch lives with for a day?",
+      "What’s your most used emoji?",
+      "What’s one thing you wish you were better at?",
+      "Have you ever pretended to be sick to skip school?",
+      "What’s something you’ve done that you’re proud of?",
+      "Who’s your celebrity crush?",
+      "What’s the meanest thing you’ve said to someone?",
+      "What’s your favorite song to sing in the shower?",
+      "What’s your dream vacation destination?",
+      "Have you ever stolen something?",
+      "What’s one thing you’d never do even for money?",
+      "Who’s the funniest person you know?",
+      "What’s your biggest pet peeve?",
+      "What’s your favorite movie quote?"
+    ],
+    "dares": [
+      "Say the alphabet backwards.",
+      "Text your crush 'I dreamt about you'.",
+      "Do 10 pushups right now.",
+      "Send a random emoji to the last person you texted.",
+      "Sing your favorite song out loud.",
+      "Do 15 jumping jacks.",
+      "Send your most recent photo in chat.",
+      "Pretend to be a robot for 20 seconds.",
+      "Change your nickname to something funny for 10 minutes.",
+      "Speak only in emojis for the next 2 messages.",
+      "Imitate a celebrity until someone guesses who it is.",
+      "Do your best evil laugh.",
+      "Post 'I’m feeling cute today' in general chat.",
+      "Say 'I love broccoli' 5 times fast.",
+      "Send a voice message saying 'I’m Batman.'",
+      "Act like a chicken for 10 seconds.",
+      "Say something nice about the person next to you.",
+      "Type your next message with your eyes closed.",
+      "Draw a self-portrait using only your mouse or finger.",
+      "Send a random meme from your gallery.",
+      "Do 5 squats while counting out loud.",
+      "Let someone choose your profile picture for 5 minutes.",
+      "Talk in an accent for the next 3 messages.",
+      "Say the first word that comes to your mind, no thinking.",
+      "Send a compliment to a random person in chat.",
+      "Spin around 10 times and try to type a sentence.",
+      "Act like your favorite animal for 15 seconds.",
+      "Say something in another language (real or fake).",
+      "Make a rhyme with your username.",
+      "Type a funny message with no vowels.",
+      "Make a short freestyle rap about pizza.",
+      "Use the word 'banana' in every sentence for 2 minutes.",
+      "Do 3 pushups for every person currently online.",
+      "Send the last message you copied (no context).",
+      "Change your status to 'I lost a bet' for 10 minutes.",
+      "Talk in third person for 3 turns.",
+      "Act like a baby until your next message.",
+      "Try to wink with both eyes open.",
+      "Describe yourself like a movie trailer.",
+      "Count from 10 to 0 dramatically.",
+      "Pretend to cry loudly for 5 seconds.",
+      "Type like a caveman for the next 2 messages.",
+      "Say 'meow' after every sentence for 2 minutes.",
+      "Type backwards for one message.",
+      "Sing the chorus of your favorite song (text or voice).",
+      "Tell a joke — good or bad.",
+      "Pretend your keyboard is a piano and 'play' it.",
+      "Say the first thing you think when I say 'homework'.",
+      "Send a gif that describes your mood right now.",
+      "Act like a news reporter for 10 seconds."
+    ]
+  },
+  "upgrades.json": {
+    "1": {
+      "name": "Small Booster Chip",
+      "price": 2500,
+      "bonusWorkPercent": 10,
+      "type": "work",
+      "effect": "+10% more cash from /work",
+      "requires": null,
+      "description": "+10% more cash from /work"
+    },
+    "2": {
+      "name": "Plus Processor",
+      "price": 10000,
+      "bonusWorkPercent": 25,
+      "type": "work",
+      "effect": "+25% more cash from /work",
+      "requires": "1",
+      "description": "+25% more cash from /work"
+    },
+    "3": {
+      "name": "Golden Keyboard",
+      "price": 50000,
+      "bonusWorkPercent": 50,
+      "type": "work",
+      "effect": "+50% more cash from /work",
+      "requires": "2",
+      "description": "+50% more cash from /work"
+    },
+    "4": {
+      "name": "Passive Income Miner",
+      "price": 100000,
+      "type": "miner",
+      "effect": "Generates 1 000 cash every hour forever",
+      "requires": "3",
+      "description": "Generates 1 000 cash every hour forever after purchase (stacks with other miners)",
+      "incomePerHour": 1000
+    },
+    "5": {
+      "name": "Lucky Charm",
+      "price": 15000,
+      "bonusLuckPercent": 5,
+      "type": "gamble",
+      "effect": "+5% better odds in all gamble commands",
+      "requires": "4",
+      "description": "Slightly increases your gambling luck (+5% odds)"
+    },
+    "6": {
+      "name": "Silver Dice",
+      "price": 40000,
+      "bonusLuckPercent": 10,
+      "type": "gamble",
+      "effect": "+10% better odds in all gamble commands",
+      "requires": "5",
+      "description": "Makes the odds turn in your favor (+10% odds)"
+    },
+    "7": {
+      "name": "Golden Clover",
+      "price": 90000,
+      "bonusLuckPercent": 20,
+      "type": "gamble",
+      "effect": "+20% better odds in all gamble commands",
+      "requires": "6",
+      "description": "Your luck shines brighter than ever (+20% odds)"
+    },
+    "8": {
+      "name": "Quantum Yield Generator",
+      "price": 250000,
+      "type": "miner",
+      "effect": "Generates 10 000 cash every hour forever",
+      "requires": "4",
+      "description": "Continuously mines 10 000 cash every hour after purchase (stacks with other miners)",
+      "incomePerHour": 10000
+    }
+  },
+  "userAuras.json": {},
+  "userLanguages.json": {},
+  "userLayouts.json": {},
+  "welcomeDms.json": {},
+  "xp.json": {}
+}

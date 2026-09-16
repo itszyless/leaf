@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>leaf - Discord App</title>
+  <link rel="icon" href="/assets/leaf_no_bg.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+  <link rel="stylesheet" href="/static/styles.css?v=20260607eco2" />
+  <style>
+    html,body{background:#08090c;color:#f4f5f7}
+    #pageLoader{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.14),transparent 34%),linear-gradient(180deg,#17191f,#050609);transition:opacity .16s ease,visibility .16s ease}
+    #pageLoader.hidden{opacity:0;visibility:hidden;pointer-events:none}
+    #pageLoader img{width:58px;height:58px;animation:loaderSpin .7s linear infinite;filter:drop-shadow(0 18px 40px rgba(22,117,241,.45))}
+    @keyframes loaderSpin{to{transform:rotate(360deg)}}
+  </style>
+</head>
+<body>
+  <div id="pageLoader"><img src="/assets/leaf_no_bg.png" alt="Loading" /></div>
+  <div class="glow glow-a"></div>
+  <div class="glow glow-b"></div>
+  <header class="nav">
+    <a class="brand" href="/" data-link aria-label="leaf home">
+      <img src="/assets/leaf_no_bg.png" alt="" />
+      <span>leaf</span>
+    </a>
+    <nav class="nav-center">
+      <a href="/commands" data-link data-nav="commands"><i class="fi fi-rr-terminal"></i>Commands</a>
+      <a href="/plus" data-link data-nav="plus"><i class="fa-solid fa-gem"></i>Plus</a>
+      <a href="/team" data-link data-nav="team"><i class="fa-solid fa-users"></i>Team</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="support liquid" id="supportTop" href="#" target="_blank" rel="noreferrer"><i class="fi fi-brands-discord"></i> Support</a>
+      <a class="login" id="loginButton" href="/auth/discord">Login</a>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="footer">
+    <div>
+      <a class="footer-brand" href="/" data-link><img src="/assets/leaf_no_bg.png" alt="" /> leaf</a>
+      <p>Copyright &copy; 2026 <span class="leaf-copy">leaf</span>. All rights reserved.</p>
+    </div>
+    <div>
+      <h4>Bot</h4>
+      <a href="/invite"><i class="fi fi-brands-discord"></i> Invite</a>
+      <a href="/commands" data-link><i class="fi fi-rr-terminal"></i> Commands</a>
+      <a href="/plus" data-link><i class="fa-solid fa-gem"></i> Plus</a>
+      <a href="/team" data-link><i class="fa-solid fa-users"></i> Team</a>
+      <a id="supportFoot" href="#" target="_blank" rel="noreferrer"><i class="fa-solid fa-life-ring"></i> Support</a>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <a href="/legal/terms" data-link><i class="fa-regular fa-file-lines"></i> Terms of Service</a>
+      <a href="/legal/privacy" data-link><i class="fa-solid fa-shield-halved"></i> Privacy Policy</a>
+      <a href="/legal/refund" data-link><i class="fa-solid fa-receipt"></i> Refund Policy</a>
+    </div>
+  </footer>
+  <button id="toTop" class="to-top liquid" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+  <script src="/static/app.js?v=20260607eco2" defer></script>
+</body>
+</html>
+
+
+
+
+
