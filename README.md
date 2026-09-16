@@ -118,15 +118,6 @@ Open **http://localhost:3000**. Leave the terminal running. Press **Ctrl+C** to 
 
 Website-only mode shows the public pages and catalog without a bot token. Discord login still requires OAuth credentials and the registered redirect. Live Discord actions require the bot. Run one instance against a data directory; do not run `npm start` alongside another copy on the same port.
 
-### Run on this laptop
-
-Your restored working folder is `C:\Users\olive\Documents\Projects\leaf`:
-
-```powershell
-cd C:\Users\olive\Documents\Projects\leaf
-npm.cmd start
-```
-
 ## Important files
 
 | File or folder | Purpose |
