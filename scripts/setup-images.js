@@ -1,0 +1,1 @@
+require('../utils/imageModels').ensureModel().then(() => console.log('Background model ready. OCR languages are installed with npm ci.')).catch(error => { console.error(error.message); process.exitCode = 1; });

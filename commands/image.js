@@ -3,15 +3,19 @@ const { SlashCommandBuilder, EmbedBuilder, AttachmentBuilder, ActionRowBuilder,
 const palette = require('../utils/imagePalette');
 const plusAccess = require('../utils/plusAccess');
 const embedUtils = require('../utils/getUserEmbed');
+const definitions = require('../utils/imageToolDefinitions');
+const toolCommand = require('../utils/imageToolCommand');
 
 module.exports = {
   category: 'Image',
-  data: new SlashCommandBuilder().setName('image').setDescription('Image tools')
+  data: definitions.addTools(new SlashCommandBuilder().setName('image').setDescription('Image tools')
     .addSubcommand(sub => sub.setName('palette')
       .setDescription('Extract dominant HEX colours: up to 15 free / 30 Plus, five per page')
-      .addAttachmentOption(option => option.setName('image').setDescription('PNG, JPEG, WebP, GIF or AVIF; up to 10 MB').setRequired(true))),
+      .addAttachmentOption(option => option.setName('image').setDescription('PNG, JPEG, WebP, GIF or AVIF; up to 10 MB').setRequired(true)))),
 
   async execute(interaction) {
+    const subcommand = interaction.options.getSubcommand?.() || 'palette';
+    if (subcommand !== 'palette') return toolCommand.execute(interaction, subcommand);
     const attachment = interaction.options.getAttachment('image', true);
     const plus = plusAccess.isPlusActive(interaction.user.id);
     let colors, animated, swatches, pages;

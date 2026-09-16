@@ -11,7 +11,8 @@
     "web": "node scripts/setup.js && node index.js --web-only",
     "bot": "node scripts/setup.js && node index.js --bot-only",
     "check": "node scripts/check.js",
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js",
+    "setup:images": "node scripts/setup-images.js"
   },
   "keywords": [
     "discord",
@@ -24,6 +25,10 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@napi-rs/canvas": "^0.1.76",
+    "@tesseract.js-data/deu": "^1.0.0",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "@tesseract.js-data/fra": "^1.0.0",
+    "@tesseract.js-data/spa": "^1.0.0",
     "canvas": "^3.1.2",
     "chrono-node": "^2.10.1",
     "discord-arts": "^0.7.1",
@@ -40,7 +45,9 @@
     "ms": "^2.1.3",
     "night-api": "^1.3.0",
     "node-fetch": "^3.3.2",
+    "onnxruntime-node": "^1.30.0",
     "sharp": "^0.35.4",
+    "tesseract.js": "^7.0.0",
     "uuid": "^11.1.0"
   },
   "private": true,

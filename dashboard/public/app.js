@@ -179,7 +179,7 @@ function faq(q,a){return `<div class="faq-item liquid-card"><button class="faq-q
 async function ensureCatalog() {
   if (!catalog.length) { const data = await api('/api/commands'); catalog = data.commands; boot.stats = data.stats; }
 }
-function commandPool() { return plusOnly ? catalog.filter(c => c.premium) : catalog; }
+function commandPool() { return plusOnly ? catalog.filter(c => c.premium || c.plusBenefit) : catalog; }
 function commandFiltered() {
   const pool = commandPool();
   return pool.filter(c => (activeCategory === 'All' || c.category === activeCategory) && (!searchText || `${c.displayName} ${c.description} ${c.category}`.toLowerCase().includes(searchText.toLowerCase())));
@@ -213,7 +213,7 @@ async function commandsPage() {
   setTitle('Commands');
   await ensureCatalog();
   app.innerHTML = `<section class="page command-head command-page-ready ${plusOnly ? 'plus-command-page' : ''}"><h1 class="section-title gradient-text" style="text-align:left">${plusOnly ? 'plus commands' : 'commands'}</h1><div class="eyebrow">${fmt(commandPool().length)} commands &middot; ${categoriesForPool().length - 1} categories</div>
-    <div class="toolbar"><div class="toolbar-actions">${plusOnly ? `<button class="btn ghost liquid" id="allCommands">${icon('commands')}All Commands</button><button class="btn ghost liquid" id="premiumToggle">${icon('plus')}Get Plus</button>` : `<button class="btn ghost liquid" id="premiumToggle">${icon('plus')}Plus Only</button>`}</div><input class="search liquid" id="search" placeholder="Search" value="${esc(searchText)}"></div>
+    <div class="toolbar"><div class="toolbar-actions">${plusOnly ? `<button class="btn ghost liquid" id="allCommands">${icon('commands')}All Commands</button><button class="btn ghost liquid" id="premiumToggle">${icon('plus')}Get Plus</button>` : `<button class="btn ghost liquid" id="premiumToggle">${icon('plus')}Plus Features</button>`}</div><input class="search liquid" id="search" placeholder="Search" value="${esc(searchText)}"></div>
     <div class="chips liquid-card" id="chips"></div><h3 id="commandCount"></h3><div class="command-grid" id="commandGrid"></div></section>`;
   document.querySelector('#search').addEventListener('input', e => { searchText = e.target.value; renderCommandGrid(); });
   document.querySelector('#premiumToggle').addEventListener('click', () => { if (plusOnly) return openPlansModal(); history.pushState(null, '', '/plus'); transitionRender(); });
@@ -229,7 +229,7 @@ function card(c){
     ? args.map(a=>`<span class="arg">${esc(a.name)}${a.required?'':'?'}</span>`).join('')
     : '<span class="no-args">none</span>';
   const isAdminCommand = ['admin', 'owner'].includes(String(c.category || '').toLowerCase());
-  return `<article class="command-card liquid-card ${isAdminCommand?'admin-command':c.premium?'premium-command':''}"><button class="copy" data-copy="${esc(c.syntax)}" title="Copy command"><i class="fa-regular fa-copy"></i></button><h3>${esc(c.displayName)}</h3><p>${c.premium ? '<i class="fa-solid fa-wand-magic-sparkles"></i> ' : ''}${esc(c.description)}</p><div class="command-meta"><span>arguments</span><div class="args">${argsHtml}</div><span>usage</span><code>${esc(c.syntax)}</code></div></article>`;
+  return `<article class="command-card liquid-card ${isAdminCommand?'admin-command':c.premium?'premium-command':''}"><button class="copy" data-copy="${esc(c.syntax)}" title="Copy command"><i class="fa-regular fa-copy"></i></button><h3>${esc(c.displayName)}</h3><p>${c.premium ? '<i class="fa-solid fa-wand-magic-sparkles"></i> ' : ''}${esc(c.description)}</p>${c.plusBenefit ? `<p class="card-muted"><strong>Free to use · Plus upgrade:</strong> ${esc(c.plusBenefit)}</p>` : ''}<div class="command-meta"><span>arguments</span><div class="args">${argsHtml}</div><span>usage</span><code>${esc(c.syntax)}</code></div></article>`;
 }
 
 async function team() {

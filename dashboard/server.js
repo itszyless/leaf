@@ -363,6 +363,7 @@ function flattenCommand(commandJson, category, rawCategory) {
       syntax,
       arguments: args.map(o => ({ name: o.name, description: o.description || 'No description.', required: Boolean(o.required), type: o.type })),
       premium: base.premium || leafPremium,
+      plusBenefit: commandJson.name === 'image' ? require('../utils/imageToolDefinitions').benefits[pathParts[0]] || null : null,
       contextMenu: isContextMenu,
     });
   }

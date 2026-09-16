@@ -62,9 +62,15 @@ function cleanupExpiredPlus(now = Date.now()) {
 }
 
 function isPlusActive(userId) {
+  if (isOwner(userId)) return true;
   cleanupExpiredPlus();
   const plus = loadJson(plusPath, {});
   return plus[String(userId)] === true;
+}
+
+function isOwner(userId) {
+  const owner = String(config.Owner_ID || '').trim();
+  return /^\d{17,20}$/.test(owner) && String(userId) === owner;
 }
 
 function grantPlus(userId, options = {}) {
@@ -123,6 +129,7 @@ function parseDuration(input) {
 }
 
 function getPlusInfo(userId) {
+  if (isOwner(userId)) return { active: true, expiration: null };
   cleanupExpiredPlus();
   const id = String(userId);
   const plus = loadJson(plusPath, {});
