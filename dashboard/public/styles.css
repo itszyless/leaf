@@ -1084,3 +1084,20 @@ body::after{background:linear-gradient(180deg,transparent 0 42%,rgba(255,255,255
 .not-found-card::before{display:none!important}
 .discord-embed-preview:has(.embed-thumb.hidden){padding-right:16px!important}
 #embedPreview:has(#previewThumb.hidden){padding-right:16px!important}
+/* Keep all navigation controls visible on narrow screens. */
+@media (max-width: 760px) {
+  .nav, .scrolled .nav {
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas: "brand actions" "links links";
+    justify-content: stretch;
+    gap: 4px 12px;
+    padding: 16px 20px 12px;
+  }
+  .nav::before, .scrolled .nav::before { inset: 6px; border-radius: 26px; }
+  .nav .brand { grid-area: brand; margin: 0; }
+  .nav-actions { grid-area: actions; justify-self: end; gap: 8px; }
+  .nav-center { grid-area: links; justify-content: center; gap: 0; min-width: 0; padding: 0; overflow: visible; }
+  .nav-center a { padding: 0 10px; gap: 6px; font-size: 14px; }
+  .nav-actions .support, .nav-actions .login { padding: 0 12px; }
+  .hero { min-height: calc(100svh - 124px); }
+}
