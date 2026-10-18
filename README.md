@@ -4,7 +4,7 @@
 
 # leaf
 
-### A little more life in every Discord chat.
+### Your account. Your community.
 
 A multipurpose Discord bot with a web dashboard for personal settings, themes and economy features.
 
